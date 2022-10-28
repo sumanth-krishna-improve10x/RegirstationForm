@@ -15,16 +15,16 @@ public class IdentityActivity extends AppCompatActivity {
         setContentView(R.layout.activity_identity);
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
-        Button nxtBtn = findViewById(R.id.nxt_btn);
-        nxtBtn.setOnClickListener(view -> {
+        Button nextBtn = findViewById(R.id.next_btn);
+        nextBtn.setOnClickListener(view -> {
             EditText panNumberTxt = findViewById(R.id.pan_number_txt);
             String panNumber = panNumberTxt.getText().toString();
-            EditText adharNumberTxt = findViewById(R.id.adhar_number_txt);
-            String adharNumber = adharNumberTxt.getText().toString();
+            EditText aadharNumberTxt = findViewById(R.id.aadhar_txt);
+            String aadharNumber = aadharNumberTxt.getText().toString();
             Intent identityIntent = new Intent(this, SuccessActivity.class);
             identityIntent.putExtras(bundle);
             identityIntent.putExtra("panNumber", panNumber);
-            identityIntent.putExtra("adharNumber", adharNumber);
+            identityIntent.putExtra("aadharNumber", aadharNumber);
             startActivity(identityIntent);
         });
 

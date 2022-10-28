@@ -65,21 +65,21 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
 
         <Button
             android:id="@+id/back_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="30dp"
-            android:padding="8dp"
+            android:backgroundTint="#B1B0B0"
             android:text="Back" />
 
         <Button
-            android:id="@+id/nxt_btn"
+            android:id="@+id/next_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="160dp"
+            android:layout_marginLeft="200dp"
             android:padding="8dp"
             android:text="next" />
     </LinearLayout>

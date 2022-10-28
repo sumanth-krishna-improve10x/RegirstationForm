@@ -25,8 +25,8 @@ public class BankAccountActivity extends AppCompatActivity {
         //String currentCompany = intent.getStringExtra("currentCompany");
         // String totalExperience = intent.getStringExtra("totalExperience");
         //String designation = intent.getStringExtra("designation");
-        Button nxtBtn = findViewById(R.id.nxt_btn);
-        nxtBtn.setOnClickListener(view -> {
+        Button nextBtn = findViewById(R.id.next_btn);
+        nextBtn.setOnClickListener(view -> {
             EditText bankNameTxt = findViewById(R.id.bank_name_txt);
             String bankName = bankNameTxt.getText().toString();
             EditText accountHolderNameTxt = findViewById(R.id.account_holder_name_txt);

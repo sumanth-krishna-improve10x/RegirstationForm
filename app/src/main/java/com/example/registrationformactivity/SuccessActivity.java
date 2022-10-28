@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class SuccessActivity extends AppCompatActivity {
 
@@ -30,8 +29,8 @@ public class SuccessActivity extends AppCompatActivity {
         String dateOfBirth = intent.getStringExtra("dateOfBirth");
         String placeOfBirth = intent.getStringExtra("placeOfBirth");
         String panNumber = intent.getStringExtra("panNumber");
-        String adharNumber = intent.getStringExtra("adharNumber");
-        String apartment = intent.getStringExtra("apartment");
+        String aadharNumber = intent.getStringExtra("aadharNumber");
+        String houseNo = intent.getStringExtra("houseNo");
         String street = intent.getStringExtra("street");
         String city = intent.getStringExtra("city");
         String state = intent.getStringExtra("state");
@@ -68,10 +67,10 @@ public class SuccessActivity extends AppCompatActivity {
         placeOfBirthTxt.setText(placeOfBirth);
         TextView panNumberTxt = findViewById(R.id.pan_number_txt);
         panNumberTxt.setText(panNumber);
-        TextView adharNumberTxt = findViewById(R.id.adhar_number_txt);
-        adharNumberTxt.setText(adharNumber);
-        TextView apartmentTxt = findViewById(R.id.apartment_txt);
-        apartmentTxt.setText(apartment);
+        TextView aadharNumberTxt = findViewById(R.id.aadhar_txt);
+        aadharNumberTxt.setText(aadharNumber);
+        TextView apartmentTxt = findViewById(R.id.house_no_txt);
+        apartmentTxt.setText(houseNo);
         TextView streetTxt = findViewById(R.id.street_txt);
         streetTxt.setText(street);
         TextView cityTxt = findViewById(R.id.city_txt);

@@ -17,7 +17,7 @@ public class AddressActivity extends AppCompatActivity {
         nextBtn.setOnClickListener(view -> {
             Intent intent = getIntent();
             Bundle bundle = intent.getExtras();
-            EditText apartmentTxt = findViewById(R.id.apartment_txt);
+            EditText apartmentTxt = findViewById(R.id.house_no_txt);
             String apartment = apartmentTxt.getText().toString();
             EditText streetTxt = findViewById(R.id.street_txt);
             String street = streetTxt.getText().toString();

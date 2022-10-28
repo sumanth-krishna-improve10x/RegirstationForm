@@ -21,10 +21,11 @@
         android:id="@+id/textView38"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="H.No / Apartment" />
+        android:text="H.No / Apartment"
+        android:textSize="16sp" />
 
     <EditText
-        android:id="@+id/apartment_txt"
+        android:id="@+id/house_no_txt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -34,7 +35,8 @@
         android:id="@+id/textView40"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Street" />
+        android:text="Street"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/street_txt"
@@ -47,7 +49,8 @@
         android:id="@+id/textView41"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="City" />
+        android:text="City"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/city_txt"
@@ -60,7 +63,8 @@
         android:id="@+id/textView44"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="State" />
+        android:text="State"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/state_txt"
@@ -73,7 +77,8 @@
         android:id="@+id/textView46"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Country" />
+        android:text="Country"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/country_txt"
@@ -84,7 +89,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal"
         android:padding="10dp">
 
@@ -93,7 +99,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="60dp"
-            android:layout_weight="1"
+            android:backgroundTint="#B1B0B0"
             android:text="back" />
 
         <Button

@@ -19,8 +19,8 @@ public class PersonalInfoActivity extends AppCompatActivity {
         // String emailAddress = intent.getStringExtra("emailAddress");
         // String password = intent.getStringExtra("password");
         //String confirmPassword = intent.getStringExtra("confirmPassword");
-        Button nxtBtn = findViewById(R.id.nxt_btn);
-        nxtBtn.setOnClickListener(view -> {
+        Button nextBtn = findViewById(R.id.next_btn);
+        nextBtn.setOnClickListener(view -> {
             EditText userNameTxt = findViewById(R.id.user_name_txt);
             String userName = userNameTxt.getText().toString();
             EditText firstNameTxt = findViewById(R.id.first_name_txt);

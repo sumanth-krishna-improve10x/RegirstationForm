@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="You Have Successfully Completed the Process"
+            android:text="You have successfully completed the process"
             android:textSize="16sp" />
     </LinearLayout>
 
@@ -62,7 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Username" />
+            android:text="UserName" />
 
         <TextView
             android:id="@+id/user_name_txt"
@@ -126,7 +126,7 @@
             android:text="H.No/Apartment" />
 
         <TextView
-            android:id="@+id/apartment_txt"
+            android:id="@+id/house_no_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -520,10 +520,10 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Adhar Number" />
+            android:text="Aadhar Number" />
 
         <TextView
-            android:id="@+id/adhar_number_txt"
+            android:id="@+id/aadhar_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

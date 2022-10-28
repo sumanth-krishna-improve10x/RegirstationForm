@@ -22,7 +22,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="6dp"
-        android:text="Bank" />
+        android:text=" Bank Name"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/bank_name_txt"
@@ -37,7 +38,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="6dp"
-        android:text="Account Holder Name" />
+        android:text="Account Holder Name"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/account_holder_name_txt"
@@ -52,7 +54,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="6dp"
-        android:text="Account Number" />
+        android:text="Account Number"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/account_number_txt"
@@ -67,7 +70,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="6dp"
-        android:text="IFSC Code" />
+        android:text="IFSC Code"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/ifsc_code_txt"
@@ -80,6 +84,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
         <Button
@@ -88,10 +93,11 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="32dp"
             android:layout_weight="1"
+            android:backgroundTint="#B1B0B0"
             android:text="back" />
 
         <Button
-            android:id="@+id/nxt_btn"
+            android:id="@+id/next_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="32dp"

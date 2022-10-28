@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Professinal Info"
+        android:text="Professional Info"
         android:textColor="#000000"
         android:textSize="24sp" />
 
@@ -23,7 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
-        android:text="Current Company" />
+        android:text="Current Company"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/current_company_txt"
@@ -38,7 +39,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
-        android:text="Total Experince" />
+        android:text="Total Experince"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/total_experience_txt"
@@ -52,7 +54,8 @@
         android:id="@+id/textView11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Designation" />
+        android:text="Designation"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/designation_txt"
@@ -72,6 +75,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="30dp"
+            android:backgroundTint="#B1B0B0"
             android:padding="8dp"
             android:text="Back" />
 
